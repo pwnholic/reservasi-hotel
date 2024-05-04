@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/gofiber/fiber/v2"
 	"github.com/pwnholic/reservasi-hotel/db"
 	"github.com/pwnholic/reservasi-hotel/types"
-	"github.com/gofiber/fiber/v2"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

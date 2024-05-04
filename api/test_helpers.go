@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/pwnholic/reservasi-hotel/db"
 	"github.com/joho/godotenv"
+	"github.com/pwnholic/reservasi-hotel/db"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

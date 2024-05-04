@@ -8,12 +8,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/pwnholic/reservasi-hotel/api"
-	"github.com/pwnholic/reservasi-hotel/db"
-	"github.com/pwnholic/reservasi-hotel/db/fixtures"
 	"github.com/joho/godotenv"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
+
+	"github.com/pwnholic/reservasi-hotel/api"
+	"github.com/pwnholic/reservasi-hotel/db"
+	"github.com/pwnholic/reservasi-hotel/db/fixtures"
 )
 
 func main() {

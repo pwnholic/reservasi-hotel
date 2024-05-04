@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/pwnholic/reservasi-hotel/db"
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt/v5"
+	"github.com/pwnholic/reservasi-hotel/db"
 )
 
 func JWTAuthentication(userStore db.UserStore) fiber.Handler {
@@ -18,7 +18,7 @@ func JWTAuthentication(userStore db.UserStore) fiber.Handler {
 			fmt.Println("token not present in the header")
 			return ErrUnAuthorized()
 		}
-		claims, err := validateToken(token)
+		claims, err := validateToken(token[0])
 		if err != nil {
 			return err
 		}

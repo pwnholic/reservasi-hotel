@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/pwnholic/reservasi-hotel/types"
 	"github.com/gofiber/fiber/v2"
+	"github.com/pwnholic/reservasi-hotel/types"
 )
 
 func TestPostUser(t *testing.T) {
